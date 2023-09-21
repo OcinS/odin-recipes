@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: var(--text-fsize);
+}
+
+:root {
+
+    /* Color Variables */
+    --text-color: #000000f2;
+    --link-color: #d54215;
+
+    /* Font Variables */
+    --h1-fsize: 48px;
+    --h2-fsize: 36px;
+    --text-fsize: 18px;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+main {
+    margin: 20px 12%;
+}
+
+h1 {
+    font-size: var(--h1-fsize);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: var(--h2-fsize);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+ul.featured-recipe {
+    list-style: none;
+}
+
+ul li a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+ul.list, ol.list {
+    margin-left: 50px;
+}
+
+ul, ol, img, p {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid var(--text-color);
+    border-radius: 50px;
+}
